@@ -52,10 +52,12 @@
       {
         "title": "Lightake.com clone",
         "startDate": "2018",
-        "description": "Clone of A web application that sells educational, musical and sports toys.",
+        "description": "Clone of A web application that sells educational, musical and sports toys.Using HTML,CSS and javascript has functionalities like Login and register",
         "images": [
           "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/p2.png"
+          "images/portfolio/photography/p2.png",
+          "images/portfolio/photography/p4.png",
+          "images/portfolio/photography/p5.png"
         ],
         "url2": "https://github.com/arnavigode/lighTake_clone",
         "url": "https://github.com",
@@ -69,6 +71,10 @@
             "name": "CSS"
           },
           {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
             "class": "devicon-javascript-plain",
             "name": "Javascript"
           }
@@ -77,7 +83,7 @@
       {
         "title": "Azzady campervan",
         "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "One of the first apps using REACT, website provides detailed information of campervans required for travelling. You can book your campervan after loigin either by phone or Google.",
         "images": [
           "images/portfolio/adventure/p1.png",
           "images/portfolio/adventure/p2.png",
