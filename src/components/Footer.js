@@ -18,7 +18,7 @@ class Footer extends Component {
     return (
       
       <footer>
-        {/* <Mailer/> */}
+        
         <br/>
         <br/>
         <div className="col-md-12">

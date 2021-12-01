@@ -48,7 +48,7 @@ class About extends Component {
                   <span style={{}} className="wave">{hello} ☺️ </span>
                   <br />
                   <br />
-                  <span style={{fontSize: "20px"}}>{about}</span>
+                  <span style={{fontSize: "21px"}}>{about}</span>
                   <br />
                   <br />
                   <a
