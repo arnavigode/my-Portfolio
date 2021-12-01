@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "I'm Arnavi Gode and I am a full-stack web developer.passionate about building digital products that improve everyday experience of people.Skilled and experienced at building and maintaining MERN based web applications. Looking forward to joining a progressive and challenging work environment.",
+      "description": "I'm Arnavi Gode and I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you! Plaese feel free to Contact me. ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -49,37 +49,7 @@
           }
         ]
       },
-      {
-        "title": "Lightake.com clone",
-        "startDate": "2018",
-        "description": "Clone of A web application that sells educational, musical and sports toys.Using HTML,CSS and javascript has functionalities like Login and register",
-        "images": [
-          "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/p2.png",
-          "images/portfolio/photography/p4.png",
-          "images/portfolio/photography/p5.png"
-        ],
-        "url2": "https://github.com/arnavigode/lighTake_clone",
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          }
-        ]
-      },
+      
       {
         "title": "Azzady campervan",
         "startDate": "2015",
@@ -91,7 +61,7 @@
           "images/portfolio/adventure/p4.png"
         ],
         "url2": "https://github.com/vishalpatil12014017/TravelTech",
-        "url": "https://github.com",
+        "url": "https://aazadi-traveltech.vercel.app/",
         "technologies": [
           {
             "class": "devicon-react-plain",
