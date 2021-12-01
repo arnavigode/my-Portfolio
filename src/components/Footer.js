@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Mailer from "./Mailer";
+// import Mailer from "./Mailer";
 class Footer extends Component {
   render() {
     
@@ -18,7 +18,9 @@ class Footer extends Component {
     return (
       
       <footer>
-        <Mailer/>
+        {/* <Mailer/> */}
+        <br/>
+        <br/>
         <div className="col-md-12">
           <div>
             <div>
@@ -51,6 +53,8 @@ class Footer extends Component {
             </div>
           </div>
         </div>
+
+        
       </footer>
     );
   }

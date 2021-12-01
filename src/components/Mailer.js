@@ -16,7 +16,7 @@ export default function Mailer() {
     <div className="container" style={{ marginTop: "50px", width: "50%" }}>
       <h1 style={{ marginTop: "25px" }}>Contact Form</h1>
       <form
-        className="row"
+        className="row form-inline"
         style={{ margin: "25px 85px 75px 100px" }}
         onSubmit={sendEmail}
       >
