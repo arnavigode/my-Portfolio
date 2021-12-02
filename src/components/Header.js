@@ -55,7 +55,7 @@ class Header extends Component {
     return (
       <header
         id="home"
-        style={{ height: "80px", display: "block" }}
+        style={{ height: "50px", display: "block" }}
       >
         <div className="row aligner" style={{ height: "100%" }}>
           <div className="col-md-12">

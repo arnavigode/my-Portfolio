@@ -49,37 +49,7 @@
           }
         ]
       },
-      {
-        "title": "Lightake.com clone",
-        "startDate": "2018",
-        "description": "Clone of A web application that sells educational, musical and sports toys.Using HTML,CSS and javascript has functionalities like Login and register",
-        "images": [
-          "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/p2.png",
-          "images/portfolio/photography/p4.png",
-          "images/portfolio/photography/p5.png"
-        ],
-        "url2": "https://github.com/arnavigode/lighTake_clone",
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          }
-        ]
-      },
+      
       {
         "title": "Azzady campervan",
         "startDate": "2015",
@@ -116,6 +86,37 @@
           {
             "class": "devicon-mongodb-plain",
             "name": "Mongo"
+          }
+        ]
+      },
+      {
+        "title": "Lightake.com clone",
+        "startDate": "2018",
+        "description": "Clone of A web application that sells educational, musical and sports toys.Using HTML,CSS and javascript has functionalities like Login and register",
+        "images": [
+          "images/portfolio/photography/p1.png",
+          "images/portfolio/photography/p2.png",
+          "images/portfolio/photography/p4.png",
+          "images/portfolio/photography/p5.png"
+        ],
+        "url2": "https://github.com/arnavigode/lighTake_clone",
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           }
         ]
       }
