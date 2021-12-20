@@ -82,3 +82,6 @@ class About extends Component {
 }
 
 export default About;
+
+
+// "homepage": "https://arnavigode.github.io/my-Portfolio/",
