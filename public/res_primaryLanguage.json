@@ -27,10 +27,7 @@
             "class": "devicon-react-plain",
             "name": "REACT"
           },
-          {
-            "class": "devicon-redux-original",
-            "name": "REDUX"
-          },
+          
           {
             "class": "devicon-mongodb-plain",
             "name": "Mongo-db"
