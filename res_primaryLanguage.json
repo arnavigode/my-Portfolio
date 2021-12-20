@@ -11,8 +11,43 @@
     },
     "projects": [
       {
+        "title": "Dineout clone",
+        "startDate": "2021",
+        "description": "Clone of A web application use for booking table in your favourite restaurants. OTP login, filters with ",
+        "images": [
+          "images/portfolio/photography/p1.png",
+          "images/portfolio/photography/p2.png",
+          "images/portfolio/photography/p4.png",
+          "images/portfolio/photography/p5.png"
+        ],
+        "url2": "https://github.com/suvamAdhikary/dineout_clone",
+        "url": "https://dineout-clone.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "REACT"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "REDUX"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongo-db"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
         "title": "Porter.in Clone",
-        "startDate": "2020",
+        "startDate": "2021",
         "description": "A web application to transport goods." ,
         "images": [
           "images/portfolio/animal-shelter/p2.png",
@@ -52,7 +87,7 @@
       
       {
         "title": "Azzady campervan",
-        "startDate": "2015",
+        "startDate": "2021",
         "description": "One of the first apps using REACT, website provides detailed information of campervans required for travelling. You can book your campervan after loigin either by phone or Google.",
         "images": [
           "images/portfolio/adventure/p1.png",
@@ -88,38 +123,8 @@
             "name": "Mongo"
           }
         ]
-      },
-      {
-        "title": "Lightake.com clone",
-        "startDate": "2018",
-        "description": "Clone of A web application that sells educational, musical and sports toys.Using HTML,CSS and javascript has functionalities like Login and register",
-        "images": [
-          "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/p2.png",
-          "images/portfolio/photography/p4.png",
-          "images/portfolio/photography/p5.png"
-        ],
-        "url2": "https://github.com/arnavigode/lighTake_clone",
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Javascript"
-          }
-        ]
       }
+      
     ]
 
   }
