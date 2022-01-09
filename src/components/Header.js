@@ -121,6 +121,7 @@ class Header extends Component {
                 <a
                       href="https://github.com/arnavigode"
                       style={{ textDecoration: "none", cursor: "pointer", color: "inherit" }}
+                      target="_blank"
                     >
                   <i class="fab fa-github fa-2x" style={{textDecoration: "none", cursor: "pointer" }}>
                     
@@ -129,6 +130,7 @@ class Header extends Component {
                   <a
                       href="https://www.linkedin.com/in/arnavi-gode-3227ba148/"
                       style={{ textDecoration: "none", cursor: "pointer", color: "inherit" }}
+                      target="_blank"
                     >
                   <i
                     class="fab fa-linkedin fa-2x"
@@ -140,6 +142,7 @@ class Header extends Component {
                   <a
                       href="https://twitter.com/GodeArnavi"
                       style={{ textDecoration: "none", cursor: "pointer" , color: "inherit"}}
+                      target="_blank"
                     >
                   <i class="fab fa-twitter fa-2x" style={{ cursor: "pointer" }}>
                     

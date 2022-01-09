@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
@@ -6,6 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Navbar from "./components/Navbar";
 
 
 class App extends Component {
@@ -81,7 +83,10 @@ class App extends Component {
 
   render() {
     return (
+      
       <div>
+        
+        <Navbar/>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
@@ -128,6 +133,7 @@ class App extends Component {
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}
         />
         
         {/* <Experience

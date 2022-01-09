@@ -13,7 +13,7 @@
       {
         "title": "Dineout clone",
         "startDate": "2021",
-        "description": "Clone of A web application use for booking table in your favourite restaurants. OTP login, filters with good user interface.",
+        "description": "Clone of A web application used for booking tables in your favorite restaurants.You can filter restaurants and select the date and time of your choice and book a restaurant, you can log in using mobile OTP and get booking confirmation.",
         "images": [
           "images/portfolio/photography/p1.png",
           "images/portfolio/photography/p2.png",
@@ -27,7 +27,10 @@
             "class": "devicon-react-plain",
             "name": "REACT"
           },
-          
+          {
+            "class":"devicon-redux-original",
+            "name": "Redux"
+          },
           {
             "class": "devicon-mongodb-plain",
             "name": "Mongo-db"
@@ -39,13 +42,21 @@
           {
             "class": "devicon-firebase-plain",
             "name": "Firebase"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       },
       {
         "title": "Porter.in Clone",
         "startDate": "2021",
-        "description": "A web application to transport goods." ,
+        "description": "Clone of a web application to transport goods. You can get available vehical for transporting for provided pickup and drop locations, filters and pop-up Login" ,
         "images": [
           "images/portfolio/animal-shelter/p2.png",
           "images/portfolio/animal-shelter/p1.png",
@@ -98,6 +109,10 @@
           {
             "class": "devicon-react-plain",
             "name": "React"
+          },
+          {
+            "class":"devicon-redux-original",
+            "name": "Redux"
           },
           {
             "class": "devicon-javascript-plain",

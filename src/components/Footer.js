@@ -17,14 +17,16 @@ class Footer extends Component {
 
     return (
       
-      <footer>
+      <footer id="footer">
         
         <br/>
         <br/>
         <div className="col-md-12">
           <div>
             <div>
-              {/* <h1>CONTACT ME</h1> */}
+              <h1 style={{fontFamily: "'Raleway', sans-serif", fontSize:"22px"}}>CONTACT ME</h1>
+              <br/>
+              <br/>
               <div class="container">
                 <div class="row">
                   <div class="col">

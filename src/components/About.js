@@ -54,7 +54,7 @@ class About extends Component {
                   <a
                     className="buttonres"
                     href="Arnavi_Gode.pdf"
-                    download="Arnavi Gode.pdf"
+                    target="_blank"
                   >
                     <Button
                       className="button"
@@ -67,7 +67,7 @@ class About extends Component {
                         clear: "both",
                       }}
                     >
-                      GET RESUME <i class="fas fa-download"></i>
+                      VIEW RESUME <i class="fas fa-download"></i>
                     </Button>
                   </a>
                 </div>

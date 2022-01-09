@@ -24,11 +24,7 @@
     },
     "skills": {
       "icons": [
-        {
-          "name": "React",
-          "class": "devicon-react-plain",
-          "level": "80"
-        },
+        
         {
           "name": "HTML",
           "class": "devicon-html5-plain",
@@ -39,16 +35,26 @@
           "class": "devicon-css3-plain",
           "level": "95"
         },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-
+        
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original",
+          "level": "85"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
         },
         
         {
@@ -67,6 +73,7 @@
           "class": "devicon-nodejs-plain",
           "level": "60"
         }
+        
       ]
     }
   }
