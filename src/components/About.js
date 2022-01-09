@@ -53,7 +53,7 @@ class About extends Component {
                   <br />
                   <a
                     className="buttonres"
-                    href="Arnavi-Gode.pdf"
+                    href="Arnavi_Gode.pdf"
                     target="_blank"
                   >
                     <Button
