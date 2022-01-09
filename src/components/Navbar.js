@@ -1,57 +1,68 @@
 import React from "react";
-import {Link} from "react-router-dom"
-import styled from 'styled-components'
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const StyleNav = styled.div`
-*{
+position: fixed;
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.navbarp{
+  }
+  .navbarp {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90px;
     background: #3f3f3f;
-    color: white;
-    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-family: "Raleway", sans-serif;
     box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
-}
-.navbarp h3{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1 !important;
+  }
+  .navbarp h3 {
     display: flex;
-    justify-content: flex-end!important;
+    justify-content: flex-end !important;
     margin-left: 30%;
-}
-a { color: white !important } 
-.logo{
+  }
+  a {
+    color: white !important;
+  }
+  .logo {
     font-size: 30px;
-}
-.nav-links{
+  }
+  .nav-links {
     display: flex;
     justify-content: flex-end !important;
     list-style: none;
     width: 75px;
     margin-left: 90%;
-}
-.home,.about,.skills,.projects,.contact{
-     text-decoration: none;
-     color: white;
-     font-size: 20px;
-     padding: 10px 20px;
-     margin: 0 10px;
-     cursor: pointer;
-}
-`
+  }
+  .home,
+  .about,
+  .skills,
+  .projects,
+  .contact {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+`;
 
 export default function Navbar() {
   return (
     <StyleNav>
       <nav className="navbarp">
-            {/* <h3>ARNAVI</h3> */}
+             {/* <h3>ARNAVI</h3>  */}
             <ul className="nav-links">
                 <div className="home" >
-                    <a href="#about">
+                    <a href="#home">
                     <li>Home</li>
                     </a>
                 </div>
@@ -78,7 +89,45 @@ export default function Navbar() {
                     
                 </div>
             </ul>
-      </nav>
+      </nav> 
+{/* 
+      <nav className="navbar navbar-expand-lg navbarp">
+        <div className="container-fluid">
+          <a href="#" className="navbar-brand">
+           
+          </a>
+          <button
+            type="button"
+            className="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span className="navbar-toggler-icon" style={{background:"white"}}></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="navbar-nav"></div>
+            <div className="navbar-nav ms-auto">
+              <a href="#home" className="nav-item nav-link active home">
+                Home
+              </a>
+              <a href="#about" className="nav-item nav-link about">
+                About
+              </a>
+              <a href="#projects" className="nav-item nav-link projects">
+                Projects
+              </a>
+              <a
+                href="#footer"
+                className="nav-item nav-link contact"
+                // tabindex="-1"
+                // style={{cursor:"pointer"}}
+              >
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav> */}
     </StyleNav>
   );
 }
