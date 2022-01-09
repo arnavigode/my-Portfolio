@@ -13,7 +13,7 @@ position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 50px;
     background: #3f3f3f;
     color: black;
     font-family: "Raleway", sans-serif;
