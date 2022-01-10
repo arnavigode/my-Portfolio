@@ -67,7 +67,7 @@ class About extends Component {
                         clear: "both",
                       }}
                     >
-                      VIEW RESUME <i class="fas fa-download"></i>
+                      VIEW RESUME 
                     </Button>
                   </a>
                 </div>

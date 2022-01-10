@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StyleNav = styled.div`
-position: fixed;
+
   * {
     margin: 0;
     padding: 0;
@@ -13,15 +13,17 @@ position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 60px;
     background: #3f3f3f;
+    /* background-color: red; */
     color: black;
     font-family: "Raleway", sans-serif;
     box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
     position: fixed;
-    width: 100%;
+    width: 100vw !important;
     top: 0;
     z-index: 1 !important;
+    /* overflow: hidden; */
   }
   .navbarp h3 {
     display: flex;
