@@ -130,5 +130,5 @@ class Projects extends Component {
     );
   }
 }
-
+// adding comments for chnages
 export default Projects;
