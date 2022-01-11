@@ -61,7 +61,7 @@ export default function Navbar() {
   return (
     <StyleNav>
       <nav className="navbarp">
-          
+             {/* <h3>ARNAVI</h3>  */}
             <ul className="nav-links">
                 <div className="home" >
                     <a href="#home">
